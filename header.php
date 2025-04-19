@@ -17,7 +17,7 @@ $base_path = ($script_path == '/' || $script_path == '\\') ? '' : $script_path;
 if ($host == $site_on_local) {
     // برای لوکال هاست، ممکن است نیاز به تعریف زیرپوشه باشد
     // مثال: http://localhost/DavaniAccounting/DavaniAccounting/
-    $base_url = $protocol . $host . "/DavaniAccounting/DavaniAccounting/"; // **مسیر پروژه را اینجا تنظیم کنید**
+    $base_url = $protocol . $host . "/DavaniAccounting/"; // **مسیر پروژه را اینجا تنظیم کنید**
 } elseif ($host == $site_on_domain) {
     // برای دامنه اصلی
     $base_url = $protocol . $host . "/"; // آدرس ریشه دامنه
